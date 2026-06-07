@@ -1,0 +1,82 @@
+===============================================
+  SORTING ALGORITHM VISUALIZER - DOCUMENTATION
+===============================================
+Intern ID  : CITS3437
+Name       : Aditya Singla
+Weeks      : 4 Weeks (3rd June - 1st July)
+Company    : CodTech IT Solutions
+===============================================
+
+1. PROJECT OVERVIEW
+-------------------
+Sorting Algorithm Visualizer is a C-based console
+application that demonstrates 5 sorting algorithms
+visually using ASCII bar charts. It shows step by
+step sorting process and compares performance.
+
+2. ALGORITHMS IMPLEMENTED
+--------------------------
+a) Bubble Sort
+   - Compares adjacent elements and swaps
+   - Time: O(n²) worst, O(n) best
+   - Shows each pass result
+
+b) Selection Sort
+   - Finds minimum and places at correct position
+   - Time: O(n²) always
+   - Shows each step result
+
+c) Insertion Sort
+   - Picks element and inserts at correct position
+   - Time: O(n²) worst, O(n) best
+   - Shows each insertion step
+
+d) Merge Sort
+   - Divides array and merges sorted halves
+   - Time: O(n log n) always
+   - Uses recursion
+
+e) Quick Sort
+   - Picks pivot and partitions array
+   - Time: O(n log n) average, O(n²) worst
+   - Uses recursion
+
+3. VISUALIZATION
+-----------------
+- ASCII bar chart shows array values as bars
+- Higher value = taller bar
+- ## symbols represent bar height
+- X-axis shows element positions
+- Y-axis shows element values
+
+4. FUNCTIONS
+-------------
+a) display_array() - Shows array as numbers
+b) display_bars() - Shows ASCII bar chart
+c) bubble_sort() - Implements bubble sort
+d) selection_sort() - Implements selection sort
+e) insertion_sort() - Implements insertion sort
+f) merge_sort() - Implements merge sort (recursive)
+g) quick_sort() - Implements quick sort (recursive)
+h) generate_random() - Creates random array
+i) get_manual_input() - Takes user input
+j) copy_array() - Copies array for reuse
+
+5. CONCEPTS COVERED
+--------------------
+- Arrays and array manipulation
+- Functions
+- Recursion (merge sort, quick sort)
+- Sorting algorithms
+- Algorithm complexity
+- ASCII visualization
+
+6. HOW TO COMPILE AND RUN
+--------------------------
+Compile:  gcc sorting_visualizer.c -o sorting_visualizer
+Run:      ./sorting_visualizer (Linux/Mac)
+          sorting_visualizer.exe (Windows)
+
+===============================================
+         END OF DOCUMENTATION
+===============================================
